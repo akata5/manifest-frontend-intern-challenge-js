@@ -1,0 +1,99 @@
+/* base button styles */
+.button {
+  width: 329px;
+  height: 40px;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  padding: 8px 129px;
+}
+
+/* primary Button Variants */
+.primary {
+  background-color: #3B968B;
+  color: white;
+  border-radius: 9px;
+}
+
+.primary:hover {
+  background-color: #3B968B;
+}
+
+.primary:active {
+  background-color: #3B968B;
+}
+
+.primary:disabled {
+  background-color: #FFF6EF;
+  color: #2E2D2980;
+  cursor: not-allowed;
+}
+
+/* secondary Button Variants */
+.secondary {
+  background-color: transparent;
+  color: #3B968B;
+  border: 2px solid #3B968B;
+  border-radius: 8px;
+}
+
+.secondary:hover {
+  background-color: transparent;
+}
+
+.secondary:active {
+  background-color: transparent;
+}
+
+.secondary:disabled {
+  color: #2E2D294D;
+  border-color: #2E2D291A;
+  background-color: white;
+  cursor: not-allowed;
+}
+
+/* text Button Variants */
+.text {
+  background-color: transparent;
+  color: #3B968B;
+  border: none;
+  padding: 0;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+.text:active {
+  color: #3B968BE5;
+}
+
+.text:disabled {
+  color: #2E2D294D;
+  cursor: not-allowed;
+}
+
+/* inverted styles (for dark mode or darker backgrounds) */
+.inverted {
+  background-color: white;
+  color: #3B968B;
+  border: 1px solid #3B968B;
+}
+
+.inverted:hover {
+  background-color: #f9f9f9;
+}
+
+.inverted:active {
+  background-color: #f0f0f0;
+}
+
+.inverted:disabled {
+  background-color: #f5f5f5;
+  color: #cccccc;
+  border-color: #cccccc;
+  cursor: not-allowed;
+}
